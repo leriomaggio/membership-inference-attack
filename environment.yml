@@ -1,0 +1,22 @@
+name: opacus
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - ipython
+  - jupyter
+  - matplotlib
+  - notebook
+  - numpy
+  - opacus>=1.1.1
+  - pandas>=1.3.5
+  - pip>=22.0.4
+  - python>=3.10
+  - pytorch>=1.8.1
+  - scikit-learn
+  - scipy
+  - setuptools>=62.0.0
+  - torchvision
+  - tqdm
+  - pip:
+      - notexbook-theme>=2.0.1
